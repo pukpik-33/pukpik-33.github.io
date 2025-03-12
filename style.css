@@ -1,100 +1,80 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #FFFFFF;
-    color: #424949;
-}
-
 .container {
-    width: 80%;
-    margin: 0 auto;
+    max-width: 600px;
+    max-resolution: 0 auto;
+    margin-top: 50px;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
+p.bio{
     text-align: center;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+hr{
+    width: 100px;
+    height: 2px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+img.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
-header nav ul li {
-    display: inline;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 10px;
-    transition: background-color 0.3s;
-}
-
-header nav ul li a:hover {
-    background-color: #444;
-    border-radius: 5px;
-}
-
-.section {
-    padding: 40px 0;
-    background-color: white;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.project {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.project h3 {
+h1.name{
+    text-transform: uppercase;
     font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #007BFF;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
+    font-weight: bold;
     text-align: center;
+    margin-top: 20px;
 }
 
-footer p {
-    font-size: 1rem;
+span.slogn{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.7) ;
+    margin-bottom: 35px;
+}
+
+.socil-img ul {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.socil-img ul li {
+    display: inline;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+.socil-img ul li :hover {
+    background: #ccc;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.study {
+    margin-bottom: 20px;
+}
+
+.fopter {
+    text-align: center;
+    padding: 20px 0;
+    color: rgba(51, 51, 51, 0.5);
 }
